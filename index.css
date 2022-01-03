@@ -1,0 +1,326 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+body, html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.root {
+  font-family: "Liberation Serif", "Roboto";
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+.header {
+  background-image: url("./images/header.png");
+  background-repeat: no-repeat;
+  background-color: #996B60;
+  background-size: contain;
+}
+
+.header__condition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #191919;
+}
+
+.header__condition-item {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  margin: 16px 0;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__item {
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.header__link-item {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 60px 0 0;
+  padding: 38px 0 40px 0;
+}
+
+.header__link-item:last-child {
+  margin: 0
+}
+
+.header__link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.menu-item {
+}
+.header__logo {
+}
+.header-list {
+}
+
+.header__flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header__body {
+  display: flex;
+  flex-direction: column;
+  margin: 180px 0 100px 0;
+  max-width: 600px;
+}
+
+.header__title {
+  font-family: Liberation Serif;
+  font-weight: 400;
+  font-size: 73px;
+  line-height: 96px;
+  color: #FFFFFF;
+  max-width: 457px;
+  margin: 0 0 34px 0;
+}
+
+.header__subtitle {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  max-width: 572px;
+  margin: 0 0 46px 0;
+}
+
+.header__button {
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  width: 180px;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__button-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  
+}
+/* END HEADER*************************************************/
+
+.recommendation {
+  
+}
+
+.recommendation__border {
+  padding: 55px 0 41px 0;
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.recommendation__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.recommendation__card {
+  max-width: 330px;
+  padding: 4px 21px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+  box-sizing: border-box;
+}
+
+.recommendation__card:last-child {
+  margin: 0;
+}
+
+.recommendation__text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 36px 0;
+}
+.recommendation-logo {
+}
+/**********************END Recommendation*******************************************/
+
+.ingredients {
+  
+}
+
+.ingredients__border {
+  border-bottom: 1px solid #BDBDBD;
+  padding: 104px 0 140px 0;
+}
+
+
+.ingredients__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients__title {
+  font-family: Liberation Serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  max-width: 673px;
+  margin: 0 0 24px 0;
+}
+
+.ingredients__subtitle {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 82px 0;
+}
+
+.ingredients__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.ingredients__body {
+  display: flex;
+  max-width: 1311px;
+  margin: 0 -25.5px;
+  
+}
+
+.ingredients__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 22.5px;
+  flex: 0 1 33.3333%;
+}
+
+.ingredients__card-description {
+  flex: 1 1 auto;
+}
+.ingredients__image {
+}
+
+.ingredients__card-title {
+  font-family: Liberation Serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  margin: 19px 0 16px 0;
+}
+
+.ingredients__card-subtitle {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 8px 27px
+}
+
+.ingredients__button {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #191919;
+  max-width: 180px;
+  min-height: 52px;
+  padding: 18px 48px;
+  border: 1px solid #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.ingredients__button-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin
+}
+
+/***************INGREDIENTS END**************************************************************/
+
+.aperitif {
+}
+
+.aperitif__border {
+  padding: 59px 0 95px 0;
+  border-bottom: 1px solid #BDBDBD;
+}
+.aperitif__image {
+  margin: 0 0 55px 0;
+}
+.aperitif__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.aperitif__title {
+  font-family: Liberation Serif;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 80px;
+  margin: 0;
+}
+.aperitif__text {
+  max-width: 548px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0;
+}

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Liberation Serif";
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./7fonts.ru_LiberationSerif-Regular.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Liberation Serif";
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./7fonts.ru_LiberationSerif-Bold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Liberation Serif";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./7fonts.ru_LiberationSerif-Italic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Liberation Serif";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./7fonts.ru_LiberationSerif-BoldItalic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./RobotoRegular.woff) format("woff");
+}
+
