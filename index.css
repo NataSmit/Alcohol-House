@@ -382,13 +382,15 @@ body, html {
 }
 
 .advantages__image {
-  grid-column: 2/4;
+  grid-column: 2/3;
   grid-row: 1/4;
+  
   
 }
 
 .advantages__adaptive-image {
   width: 100%;
+ 
 } 
 
 /***********************************ADVANTAGES END*****************************************/
