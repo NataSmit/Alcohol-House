@@ -324,3 +324,413 @@ body, html {
   line-height: 32px;
   margin: 0;
 }
+
+/*****************************APERITIF END*************************************************/
+
+.advantages {
+  padding: 59px 0 50px;
+}
+
+.advantages__grid {
+  display: grid;
+  grid-template-columns: minmax(min-content, 381px) 1fr;
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  column-gap: 55px;
+  row-gap: 21px;
+  align-items: end;
+ 
+}
+
+.grid-card {
+  
+}
+.grid-card__title {
+  font-family: Liberation Serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  margin: 0 0 18px 0;
+}
+
+.grid-card__title_size_big {
+  font-size: 36px;
+}
+
+.grid-card__text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.advantages__drink {
+  grid-column: 1;
+  grid-row: 1;
+ 
+}
+
+.advantages__ingredients {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.advantages__delivered {
+  grid-column: 1;
+  grid-row: 3;
+
+}
+
+.advantages__image {
+  grid-column: 2/4;
+  grid-row: 1/4;
+  
+}
+
+.advantages__adaptive-image {
+  width: 100%;
+} 
+
+/***********************************ADVANTAGES END*****************************************/
+
+.recommendation_theme_dark {
+  background-color: #000000;
+  color: white;
+}
+
+.recommendation__border_theme_dark {
+  padding: 95px 0 50px;
+}
+
+.recommendation__text_theme_dark {
+  color: white;
+  margin: 0 0 17px 0;
+}
+
+.recommendation__author {
+  margin: 0 0 10px 0;
+}
+
+.recommendation__buyer {
+  margin: 0;
+}
+
+/************************RECOMMENDATION END****************************/
+
+.difference {
+  padding: 60px 0;
+}
+
+
+.difference__row {
+  display: flex;
+} 
+
+.difference__image {
+  flex: 0 0 550px;
+  margin: 0 110px 0 0;
+}
+
+.difference__image-item {
+  width: 100%;
+}
+
+.difference__body {
+  flex: 1 1 auto;
+ 
+}
+
+.difference__title {
+  font-family: Liberation Serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  max-width: 628px;
+  margin: 0 0 154px 0;
+}
+.difference__text {
+}
+.difference__description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0 0 35px 0;
+}
+
+.difference__link-item {
+}
+.difference__link {
+  text-decoration: none;
+  color: #000000;
+  margin: 0;
+}
+/***********************DIFFERENCE END******************************************/
+
+.mood {
+  background-image: url("./images/mood.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.mood__playlist {
+  padding: 40px 69px;
+  max-width: 550px;
+  background-color: #000000;
+  color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mood__title {
+  font-family: Liberation Serif;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 80px;
+  text-align: center;
+  margin: 0 0 9px 0;
+}
+
+.mood__subtitle {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 0 26px 0;
+}
+.mood__button {
+  text-align: center;
+  max-width: 180px;
+  box-sizing: border-box;
+  padding: 19px 58px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+.mood__button-link {
+  text-decoration: none;
+  color: #000000;
+}
+.mood__social {
+  max-width: 550px;
+  box-sizing: border-box;
+  padding: 31px 0;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mood__text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 0 17px 0;
+}
+
+.mood__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.mood__list-item {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0;
+  display: inline;
+  margin: 0 21px 0 0;
+}
+
+.mood__list-item:last-child {
+  margin: 0;
+}
+
+.mood__cosial-link {
+  color: white;
+  text-decoration: none;
+}
+/****************************************END MOOD******************************************/
+
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 45px 0 40px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+.footer__body {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__form {
+  max-width: 440px;
+  padding-right: 50px;
+}
+
+.footer__social {
+  display: grid;
+  max-width: 660px;
+  grid-template-columns: minmax(min-content, 218px) minmax(min-content, 218px) minmax(min-content, 224px);
+  
+}
+
+.footer__social-column {
+  
+}
+
+
+
+.footer__social-title {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin: 0 0 30px 0;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__link-item {
+  padding: 0;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 21px 0;
+}
+
+.footer__social-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__policy {
+  margin: 121px 0 0 0;
+}
+.policy__list {
+  list-style: none;
+  padding: 0;
+}
+
+.policy__list-item {
+  display: inline;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 60px 0 0;
+}
+
+.policy__list-item:last-child {
+  margin: 0;
+}
+
+.policy__copyright {
+  display: inline;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0 60px 0 0;
+}
+
+.policy__link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__form-title {
+  font-family: Liberation Serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 72px;
+  margin: 0 0 12px 0;
+}
+
+.footer__form-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  max-width: 424px;
+  margin: 0 0 14px 0;
+}
+
+.footer__form-button {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: black;
+  border: none;
+  padding: 0 20px;
+}
+
+.footer__form-button:hover {
+  border: 1px solid blue;
+}
+
+.footer__form-field {
+  height: 60px;
+  background-color: black;
+  border: none;
+  color: white;
+  
+}
+
+.footer__contact-form {
+  border-bottom: 1px solid #8A8A8A;
+  display: flex;
+  justify-content: space-between;
+}
+
+input::placeholder {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  color: #818181;
+}
