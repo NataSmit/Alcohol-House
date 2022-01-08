@@ -25,6 +25,27 @@ body, html {
   background-size: contain;
 }
 
+@media screen and (max-width: 1280px) {
+  .header {
+    position: relative;
+    z-index: 2;
+  }
+  .header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.3;
+    background: #2A2C2F;
+    z-index: -1;
+    transition: opacity 0.5s;
+  }
+
+}
+
 .header__condition {
   display: flex;
   align-items: center;
@@ -47,8 +68,6 @@ body, html {
   align-items: center;
 }
 
-.header__item {
-}
 
 .header__list {
   list-style: none;
@@ -68,6 +87,16 @@ body, html {
   padding: 38px 0 40px 0;
 }
 
+.header__link-item:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.header__logo:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
 .header__link-item:last-child {
   margin: 0
 }
@@ -77,13 +106,6 @@ body, html {
   text-decoration: none;
 }
 
-
-.menu-item {
-}
-.header__logo {
-}
-.header-list {
-}
 
 .header__flex {
   display: flex;
@@ -128,6 +150,7 @@ body, html {
   justify-content: center;
 }
 
+
 .header__button-link {
   text-decoration: none;
   font-family: Roboto;
@@ -141,9 +164,6 @@ body, html {
 }
 /* END HEADER*************************************************/
 
-.recommendation {
-  
-}
 
 .recommendation__border {
   padding: 55px 0 41px 0;
@@ -167,6 +187,14 @@ body, html {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1189px) {
+  .recommendation__card {
+    margin-bottom: 40px;
+    box-shadow: 0 5px 10px gray;
+  }
+
+} 
+
 .recommendation__card:last-child {
   margin: 0;
 }
@@ -184,9 +212,6 @@ body, html {
 }
 /**********************END Recommendation*******************************************/
 
-.ingredients {
-  
-}
 
 .ingredients__border {
   border-bottom: 1px solid #BDBDBD;
@@ -246,8 +271,7 @@ body, html {
 .ingredients__card-description {
   flex: 1 1 auto;
 }
-.ingredients__image {
-}
+
 
 .ingredients__card-title {
   font-family: Liberation Serif;
@@ -294,8 +318,6 @@ body, html {
 
 /***************INGREDIENTS END**************************************************************/
 
-.aperitif {
-}
 
 .aperitif__border {
   padding: 59px 0 95px 0;
@@ -341,9 +363,7 @@ body, html {
  
 }
 
-.grid-card {
-  
-}
+
 .grid-card__title {
   font-family: Liberation Serif;
   font-weight: 400;
@@ -384,8 +404,6 @@ body, html {
 .advantages__image {
   grid-column: 2/3;
   grid-row: 1/4;
-  
-  
 }
 
 .advantages__adaptive-image {
@@ -566,6 +584,11 @@ body, html {
   margin: 0 21px 0 0;
 }
 
+.mood__list-item:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
 .mood__list-item:last-child {
   margin: 0;
 }
@@ -604,11 +627,6 @@ body, html {
   
 }
 
-.footer__social-column {
-  
-}
-
-
 
 .footer__social-title {
   font-family: Roboto;
@@ -634,6 +652,11 @@ body, html {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
   margin: 0 0 21px 0;
+}
+
+.footer__link-item:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
 }
 
 .footer__social-link {
@@ -675,6 +698,11 @@ body, html {
 .policy__link {
   text-decoration: none;
   color: white;
+}
+
+.policy__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
 }
 
 .footer__form-title {
